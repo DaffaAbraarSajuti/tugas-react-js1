@@ -1,0 +1,28 @@
+.h1-schedule {
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+.card .card-title {
+  font-size: 30px;
+}
+.card .card-subtitle {
+  font-size: 20px;
+  position: absolute;
+  width: 400px;
+}
+.card .card-text {
+  font-size: 18px;
+  position: relative;
+  margin-left: 250px;
+  margin-top: -10px;
+}
